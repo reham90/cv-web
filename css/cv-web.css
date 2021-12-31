@@ -1,0 +1,151 @@
+body{font-family: "tajawal";}
+.row{margin: 0px;
+     padding: 0px;}
+.bg{background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    height: 71px;
+    margin-top: 15px;}
+.nav-tabs{border-bottom:none !important;}
+.pic{background-image: url(../images/pic.png);
+     background-repeat: no-repeat;
+     height: 260px;
+     
+    }
+a:active{color: white !important;}
+.cam{width: 273px;
+     margin-left: 10px;
+     padding-top: 23px;
+     height: 232px;}
+.border{border-right: 2px solid #414141;
+         margin-top: 30px;
+         margin-bottom: 45px;}
+.name{color: #40a9e0;
+      font-size: 30px;
+      font-weight: bold;}
+.fb:hover{background: none !important;}
+.two{margin-top: 50px;
+     padding-right: 30px;}
+.mail{font-size: 20px;
+      font-weight: bold;
+      color: #404041;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+      margin-top: 30px;
+      }
+.e-mail{font-size: 20px;
+        color: #404041;
+        
+        
+        padding-top: 0px;
+        margin-top: 0px;}
+.phone{font-size: 15px;
+        color: #404041;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        font-weight: bold;
+        
+        margin-top: 0px;}
+.add{font-size: 20px;
+        color: #404041;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        
+        
+        padding-top: 0px;
+        margin-top: 0px;}
+.title{font-size: 30px;
+       color: #40a9e0;
+       font-weight: bold;}
+.text{font-size: 20px;
+      color: #404041;
+      margin-top: 37px;}
+.text2{font-size: 18px;
+      color: #404041;
+      margin-left: 24px;}
+.footer{background: #3b9ccf;
+        height: 53px;
+        border-bottom: 2px solid #202020;}
+.copy{font-size: 15px;
+      color: white;
+      margin-top: 15px;}
+.ed{font-size: 20px;
+    font-style: italic;
+    color: #404041;
+    margin-top: 33px;}
+.m{font-size: 18px;
+   color: #40a9e0;
+   margin-left: 24px;
+   }
+.exp{font-size: 20px;
+   color: #40a9e0;}
+#form-wrapper{display: none;}
+.btn{background: #40a9e0;}
+
+
+/* line 342, ../sass/style.scss */
+#form-wrapper {
+  display: none;
+}
+
+/* line 345, ../sass/style.scss */
+.recom-form input {
+  height: 30px;
+  width: 60%;
+  margin-bottom: 10px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 353, ../sass/style.scss */
+.recom-form textarea {
+  width: 60%;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 359, ../sass/style.scss */
+.recom-form .btn-submit {
+  border: none;
+  background-color: #40a9e0;
+  width: 40%;
+  margin-left: 10%;
+  margin-right: auto;
+  margin-top: 10px;
+  height: 30px;
+  color: #ebebeb;
+}
+
+/* line 369, ../sass/style.scss */
+.error_message {
+  display: block;
+  width: 59.4%;
+  background: #ebebeb;
+  padding: 10px;
+  margin-bottom: 5px;
+  position: relative;
+  color: #404041;
+}
+
+/* line 379, ../sass/style.scss */
+.error_message:after {
+  content: " ";
+  position: absolute;
+  bottom: -5px;
+  left: 5px;
+  border-top: #ebebeb solid 5px;
+  border-left: transparent solid 5px;
+  border-right: transparent solid 5px;
+}
+
+/* line 388, ../sass/style.scss */
+.form-success {
+  width: 59.4%;
+  margin-top: 17px;
+  display: block;
+  background-color: #40a9e0;
+  color: #ebebeb;
+  padding: 10px;
+  margin-bottom: 5px;
+}
